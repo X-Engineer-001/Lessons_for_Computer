@@ -17,4 +17,5 @@ Lesson7: CTRL+A全選後刪除
 
 下載方式：https://drive.google.com/drive/folders/1PqCLxQBtnzMuJkvYuD5sbm693WOp_YQA?usp=sharing<br>
 直接下載「jre.zip」，解壓縮後執行「Lessons_for_Computer(windows).bat」。<br>
+其他平台可嘗試自行修改bat檔指令內容，但程式未經過其他平台測試，僅理論上可運行。<br>
 「project.zip」為完整Eclipse project資料夾。
