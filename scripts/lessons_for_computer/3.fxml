@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane onMouseDragged="#onMoved" onMouseMoved="#onMoved" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessons_for_computer.Controller3">
+   <children>
+      <ImageView fx:id="_back" mouseTransparent="true" pickOnBounds="true" />
+      <Label focusTraversable="false" mouseTransparent="true" text="Lesson3. Give It a Shot">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="_capture" focusTraversable="false" mouseTransparent="true" text="Screen shot captured." textFill="#000000b2" visible="false">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

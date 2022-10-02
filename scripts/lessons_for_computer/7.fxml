@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="_field" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessons_for_computer.Controller7">
+   <children>
+      <Label fx:id="_title" mouseTransparent="true" text="Final. Remove All Trashes">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <contextMenu>
+            <ContextMenu fx:id="_context">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#onDelete" text="Delete" />
+                <MenuItem mnemonicParsing="false" onAction="#onDuplicate" text="Duplicate" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="500.0" layoutX="-6.0" onMousePressed="#onPressField" stroke="TRANSPARENT" strokeType="INSIDE" width="500.0" />
+      <ImageView fx:id="_trash" fitHeight="150.0" fitWidth="150.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Garbage.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_select" fitHeight="150.0" fitWidth="150.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Selected.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_pass" fitHeight="2300.0" fitWidth="4700.0" layoutX="15.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Pass.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

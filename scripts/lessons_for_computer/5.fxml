@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="_field" onMousePressed="#onPressed" onMouseReleased="#onReleased" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessons_for_computer.Controller5">
+   <children>
+      <ImageView fx:id="_bg" fitHeight="1000.0" fitWidth="600.0" layoutX="-100.0" layoutY="-450.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0">
+         <image>
+            <Image url="@Stars.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_galaxian" fitHeight="30.0" fitWidth="30.0" mouseTransparent="true" preserveRatio="true" rotate="-15.0" visible="false">
+         <image>
+            <Image url="@Galaxian.png" />
+         </image>
+      </ImageView>
+      <Label mouseTransparent="true" text="Lesson5. 15° Galaxian">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="_powerup" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0" visible="false">
+         <image>
+            <Image url="@PowerUp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_hpup" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0" visible="false">
+         <image>
+            <Image url="@HPUp.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="_bullet" fill="BLUE" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" />
+   </children>
+</Pane>

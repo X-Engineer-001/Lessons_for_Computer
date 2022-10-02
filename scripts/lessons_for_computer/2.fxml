@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessons_for_computer.Controller2">
+   <children>
+      <Label focusTraversable="false" text="Lesson2. Save &amp; Rescue">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="_save" focusTraversable="false" layoutX="199.0" layoutY="227.0" text="Saved" textFill="#00000080" visible="false">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="_load" focusTraversable="false" layoutX="186.0" layoutY="227.0" text="Loaded" textFill="#00000080" visible="false">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line fx:id="_edge" stroke="RED" strokeWidth="2.0" />
+      <Polygon fx:id="_side1" fill="TRANSPARENT" points="-0.7071319818496704, -0.7071136236190796, 500.00006103515625, 6.10351571594947E-6, 500.00006103515625, 500.0000305175781" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Polygon fx:id="_side2" fill="TRANSPARENT" points="-0.7070953249931335, -0.7071075439453125, -1.220703143189894E-5, 500.0000305175781, 500.00006103515625, 500.0000305175781" stroke="TRANSPARENT" strokeType="INSIDE" />
+   </children>
+</Pane>

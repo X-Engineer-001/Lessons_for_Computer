@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane onMouseDragged="#onMoved" onMouseMoved="#onMoved" onMousePressed="#onFly" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lessons_for_computer.Controller6">
+   <children>
+      <Label fx:id="_title" mouseTransparent="true" text="Lesson6. Flappy Cursor">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="_cloud" fitHeight="20.0" fitWidth="700.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_pipes" fitHeight="800.0" fitWidth="25.0" layoutX="500.0" layoutY="-150.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pipes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_under" fitHeight="500.0" fitWidth="25.0" layoutX="500.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@UnderPipe.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_ground" fitHeight="35.0" fitWidth="550.0" layoutY="465.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Ground.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
