@@ -15,4 +15,6 @@ Lesson6: 直接下墜到綠地通關<br>
 Lesson7: CTRL+A全選後刪除
 </details>
 
-建議下載方式：直接下載「project.zip」，解壓縮後執行「Lessons_for_Computer(windows).bat」。
+下載方式：https://drive.google.com/drive/folders/1PqCLxQBtnzMuJkvYuD5sbm693WOp_YQA?usp=sharing<br>
+直接下載「jre.zip」，解壓縮後執行「Lessons_for_Computer(windows).bat」。<br>
+「project.zip」為完整Eclipse project資料夾。
