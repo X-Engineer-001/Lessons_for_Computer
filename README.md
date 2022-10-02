@@ -1,3 +1,7 @@
+Special thanks to:<br>
+JNativeHook v2.2.2 https://github.com/kwhat/jnativehook<br>
+JavaFX v19 https://openjfx.io/<br>
+<br>
 程式主要支援Windows平台，其他平台未經過測試。<br>
 程式Loading需要較長時間，執行bat檔一次後請耐心等待，不要多開。<br>
 程式為小品解謎遊戲，執行後會鎖定滑鼠直到通關。建議將所有電腦上工作存檔並關閉，在準備好強制關機的前提下進行遊戲，逼不得已可以嘗試CTRL+ALT+DELETE工作管理員。如果對電腦各種快捷鍵真的不熟悉，可以先看解答：
