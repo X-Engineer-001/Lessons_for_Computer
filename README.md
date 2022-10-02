@@ -8,7 +8,7 @@ Lesson3: 電腦鍵盤全螢幕截圖快捷鍵<br>
 Lesson4: TAB鍵循環切換選項<br>
 Lesson5: 按住左鍵射擊並謹記碰紅失敗碰綠通關的邏輯<br>
 Lesson6: 直接下墜到綠地通關<br>
-Lesson7: CTRL+A全選後刪除<br>
+Lesson7: CTRL+A全選後刪除
 </details>
 
 建議下載方式：直接下載「project.zip」，解壓縮後執行「Lessons_for_Computer(windows).bat」。
